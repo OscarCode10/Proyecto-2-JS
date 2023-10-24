@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --1:white;
+    --2:black;
+    --3:rgb(0, 154, 41);
+    --4:rgb(33, 33, 33);
+    --6:rgb(255, 76, 76);
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--4);
+}
+
+.watch{
+    border: 1rem solid var(--3);
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 3.5rem;
+    color:var(--6);
+}
